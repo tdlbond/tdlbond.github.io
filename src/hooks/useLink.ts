@@ -5,8 +5,12 @@ export default function useLink () {
   const backHome = () => {
     proxy.$router.push({ name: 'home' })
   }
+  const routerPush = (path: string, query?: object) => {
+    proxy.$router.push({ path, query })
+  }
 
   return {
-    backHome
+    backHome,
+    routerPush
   }
 }

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import useLink from '../hooks/useLink'
+import useLink from '@/hooks/useLink'
 
 const { backHome } = useLink()
 </script>
