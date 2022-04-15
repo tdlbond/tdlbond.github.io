@@ -1,0 +1,1 @@
+import{d as o,o as s,c as t,a as e}from"./index.cb477dd9.js";var u="/assets/audio1.3ff47924.mp4";const _={class:"views-home"},a=e("h2",null,"\u4E11\u4EBA\u5F20\u963F\u6F02\uFF0C\u662F\u771F\u4E11\uFF01\uFF01\uFF01",-1),n=e("video",{class:"video",src:u,controls:"",autoplay:"",muted:"",loop:""},null,-1),c=[a,n],F=o({setup(d){return(i,l)=>(s(),t("div",_,c))}});export{F as default};
